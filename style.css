@@ -1,0 +1,260 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+.wrapper{
+	width:100%;
+	height:auto;
+}
+
+.wrapper .loginBox{
+	width:500px;
+	height:auto;
+	margin:100px auto;
+	background-color:#8A91CB;
+	padding:10px;
+	box-shadow:1px 1px 2px 2px gray;
+	border-radius:5px;
+}
+
+.wrapper .logo{
+	height:50px;
+	width:100%;
+}
+
+.submit
+{
+	height:30px;
+	width:80px;
+	color:#001DFF;
+	background-color:#FFF;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+}
+
+.username, .password
+{
+	height:30px;
+	width:150px;
+	padding:5px;
+}
+
+/*for home or student page */
+
+.wrapper  .banner{
+	height:300px;
+	width:100%;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+.wrapper #logout .logout
+{
+	height:40px;
+	width:100px;
+	background-color:#E8ADAE;
+	color:#000000;
+	font-size:18px;
+	float:right;
+}
+.wrapper .navbar
+{
+	height:30px;
+	width:99%;
+	margin-bottom:20px;
+	padding:6px;
+	background-color:#8F7AD8;
+
+}
+.wrapper .navbar #admin
+{
+	border-right:0px;
+}
+
+.wrapper .navbar #student, #staff, #admin
+{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:18px;
+	width:33%;
+	float:left;
+	text-align:center;
+	border-right:solid 1px #000000;
+}
+
+.wrapper .navbar #student:hover, #staff:hover, #admin:hover
+{
+	color:#FFF;
+}
+
+.wrapper .option
+{
+	height:230px;
+	width:80%;
+	margin:0 auto;
+	padding:20px;
+}
+
+.wrapper .option li
+{
+	list-style:square;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:24px;
+	margin:10px;
+}
+
+a
+{
+	text-decoration:none;
+	color:#010096;
+}
+
+.wrapper .option ul a:hover
+{
+	color:#000000;
+}
+.wrapper .footer
+{
+	height:55px;
+	width:100%;
+	margin-top:20px;
+	text-align:center;
+	background-color:#CBC7C7;
+}
+
+.wrapper .footer h5
+{
+	margin-right:5px;
+	color:#3B4FED;
+	float:right;
+}
+
+/*form page */
+
+.wrapper .form
+{
+	height:auto;
+	width:70%;
+	margin:0 auto;
+	padding:20px;
+	border:solid 1px blue;
+	border-radius:0 15px 0 15px;
+	text-align:center;
+}
+
+.wrapper .form label
+{
+	font-size:18px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style:oblique;
+}
+
+.wrapper .form input
+{
+	height:30px;
+	width:200px;
+	padding:5px;
+	border:solid 1px blue;
+	border-radius: 3px;
+}
+.wrapper .form input:focus
+{
+	outline:none;
+}
+.wrapper .form .gender{
+	height:20px;
+	width:100px;
+}
+
+.wrapper .form .submit:hover
+{
+	background-color:#000000;
+	opacity:0.4;
+	color:#FFF;
+}
+
+/* students records view */
+
+.wrapper .student-info 
+{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	border:3px solid hsla(172,68%,67%,1.00);
+	background-color:hsla(199,51%,75%,1.00);
+}
+
+.wrapper .student-info table
+{
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+
+.wrapper .student-info table th
+{
+	border:0px;
+	text-align:center;
+}
+
+.wrapper .student-info table td a:hover
+{
+	color:#FFF;
+}
+
+.wrapper .student-info table tr
+{
+	height:30px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+/*Complete student information*/
+
+.wrapper .completeInfo
+{
+	width:80%;
+	height:700px;
+	margin:0 auto;
+	padding:20px;
+	border:solid 1px blue;
+	border-radius:0 15px 0 15px;	
+}
+
+.wrapper .completeInfo .table
+{
+	width:50%;
+	float:left;
+	height:auto;
+}
+.wrapper .completeInfo .table table
+{
+	width:100%;
+	height:auto;
+}
+
+.wrapper .completeInfo td{
+	padding:4px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:18px;
+}
+
+.wrapper .completeInfo td label
+{
+	font-weight:bold;
+}
+.wrapper .completeInfo td #content
+{
+	width:50%;
+}
+.wrapper .completeInfo #image
+{
+	width:30%;
+	float:right;
+}
+/*seacrh*/
+#search
+{
+	height:15px;
+}
